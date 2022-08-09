@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Web Hosting</title>
+    <title>ThorHosting</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
         </div>
     </header>
     <div class="heros">
-        <div class="hero1">
+        <div class="hero hero-1">
             <div class="hero-content">
                 <h1 class="hero-head">
                     Great Websites start with Unlimited Hosting
@@ -35,9 +35,9 @@
                 <img src="./images/cropped-1.svg" alt="HERO-1">
             </div>
         </div>
-        <div class="hero2">
+        <div class="hero hero-2">
             <div class="hero-img">
-                <img src="./images/hero2.svg" alt="HERO-2">
+                <img src="./images/hero2.svg" alt="HERO-2" id="special-img-1">
             </div>
 
             <div class="hero-content">
@@ -50,7 +50,7 @@
                 <button class="hero-btn">Read More</button>
             </div>
         </div>
-        <div class="hero3">
+        <div class="hero hero-3">
             <div class="hero-content">
                 <h1 class="hero-head">
                     Number 1 Technical Support in India
@@ -66,11 +66,13 @@
         </div>
     </div>
     <div class="service-detail">
-        <h1 class="service-head">
+        <div class="service-head">
+            <h1 class="service-heading">
             Service We Provide at ThorHosting
-        </h1>
-        <div class="service-para">
-            Contact Niagahoster's Customer Success Agent at any time when there is a problem with your website. No need to wait long, your problem will be resolved quickly.
+            </h1>
+            <div class="service-para">
+                <p>Contact Niagahoster's Customer Success Agent at any time when there is a problem with your website. No need to wait long, your problem will be resolved quickly.</p>
+            </div>
         </div>
         <div class="service-cards">
             <div class="service-card1 service-card">
@@ -105,56 +107,162 @@
             </div>
         </div>
     </div>
-                <!-- START HERE -->
     <div class="pricing">
-        <div class="price-head">
-
-        </div>
+        <h1 class="price-head">
+            Flexible and Transparent Pricing
+        </h1>
         <div class="price-cards">
-            <div class="price-card">
-
+            <div class="price-card">   <!--Card1-->
+                <div class="price-top">
+                    <h4 class="pricecard-head">Starter Pack</h4>
+                    <p class="pricecard-para">Suitable for beginners</p>
+                </div>
+                <ul class="price-features">
+                    <li class="pricelist-item">Up to 15,000 Visitors/Month</li>
+                    <li class="pricelist-item">Disk space 500 MB</li>
+                    <li class="pricelist-item">Unlimited Bandwidth</li>
+                    <li class="pricelist-item">Unlimited Database</li>
+                    <li class="pricelist-item">1 Domain</li>
+                </ul>
+                <div class="rate-area">
+                    <h3 class="price">$29.99<span class="validity">/Month</span></h3>
+                    <p class="cancel-policy">Cancel Anytime</p>
+                    <button class="price-choose">Choose Plan</button>
+                </div>
             </div>
-            <div class="price-card">
-
+            <div class="price-card active-card">   <!--Card2-->
+                <div class="price-top active-price-top">
+                    <h4 class="pricecard-head">Popular Package</h4>
+                    <p class="pricecard-para">Suitable for company, organization</p>
+                </div>
+                <ul class="price-features">
+                    <li class="pricelist-item">Up to 135,000 Visitors/Month</li>
+                    <li class="pricelist-item">Unlimited Disk space</li>
+                    <li class="pricelist-item">Unlimited Bandwidth</li>
+                    <li class="pricelist-item">Unlimited Database</li>
+                    <li class="pricelist-item">Unlimited POP3 Email</li>
+                </ul>
+                <div class="rate-area">
+                    <h3 class="price">$59.99<span class="validity">/Month</span></h3>
+                    <p class="cancel-policy">Cancel Anytime</p>
+                    <button class="price-choose active-price-btn">Choose Plan</button>
+                </div>
             </div>
-            <div class="price-card">
-
+            <div class="price-card"> <!--Card3-->
+                <div class="price-top">
+                    <h4 class="pricecard-head">Business Package</h4>
+                    <p class="pricecard-para">Suitable for Business Websites</p>
+                </div>
+                <ul class="price-features">
+                    <li class="pricelist-item">Up to 180,000 Visitors/Month</li>
+                    <li class="pricelist-item">Unlimited Disk space</li>
+                    <li class="pricelist-item">Unlimited Bandwidth</li>
+                    <li class="pricelist-item">Unlimited Database</li>
+                    <li class="pricelist-item">Unlimited POP3 Email</li>
+                </ul>
+                <div class="rate-area">
+                    <h3 class="price">$99.99<span class="validity">/Month</span></h3>
+                    <p class="cancel-policy">Cancel Anytime</p>
+                    <button class="price-choose">Choose Plan</button>
+                </div>
             </div>
         </div>
     </div>
     <div class="review">
-        <div class="review-head">
-
-        </div>
-        <div class="review-para">
-
-        </div>
+        <h1 class="review-head">
+            Our Customer Love us
+        </h1>
+        <p class="review-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem culpa reiciendis quo repudiandae quaerat consectetur maiores vitae commodi dolor eaque aliquam, vel distinctio, nulla excepturi, fugit consequuntur.
+        </p>
         <div class="review-cards">
             <div class="review-card">
-
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo, reprehenderit quod ratione debitis inventore itaque corrupti doloribus officiis dignissimos porro, dicta laborum exercitationem velit, adipisci possimus iure sed perspiciatis?</p>
+                <div class="customer">
+                    <img src="./images/icons8-user-24.png" alt="Customer-Avatar" class="profile-picture">
+                    <div class="customer-data">
+                        <h5 class="name">Michael Andrew</h5>
+                        <p class="work-detail">CEO Apple Inc.</p>
+                    </div>
+                </div>
             </div>
             <div class="review-card">
-
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo, reprehenderit quod ratione debitis inventore itaque corrupti doloribus officiis dignissimos porro, dicta laborum exercitationem velit, adipisci possimus iure sed perspiciatis?</p>
+                <div class="customer">
+                    <img src="./images/icons8-user-24.png" alt="Customer-Avatar" class="profile-picture">
+                    <div class="customer-data">
+                        <h5 class="name">Michael Andrew</h5>
+                        <p class="work-detail">CEO Apple Inc.</p>
+                    </div>
+                </div>
             </div>
             <div class="review-card">
-
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo, reprehenderit quod ratione debitis inventore itaque corrupti doloribus officiis dignissimos porro, dicta laborum exercitationem velit, adipisci possimus iure sed perspiciatis?</p>
+                <div class="customer">
+                    <img src="./images/icons8-user-24.png" alt="Customer-Avatar" class="profile-picture">
+                    <div class="customer-data">
+                        <h5 class="name">Michael Andrew</h5>
+                        <p class="work-detail">CEO Apple Inc.</p>
+                    </div>
+                </div>
             </div>
             <div class="review-card">
-
+                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo, reprehenderit quod ratione debitis inventore itaque corrupti doloribus officiis dignissimos porro, dicta laborum exercitationem velit, adipisci possimus iure sed perspiciatis?</p>
+                <div class="customer">
+                    <img src="./images/icons8-user-24.png" alt="Customer-Avatar" class="profile-picture">
+                    <div class="customer-data">
+                        <h5 class="name">Michael Andrew</h5>
+                        <p class="work-detail">CEO Apple Inc.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="register">
-        <div class="register-head">
-
+        <div class="register-body">
+            <h1 class="register-head">
+                Quit Worrying about Oce-Hosting services
+            </h1>
+            <p class="register-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ullam aperiam nostrum eius beatae eligendi explicabo.
+            </p>
         </div>
-        <div class="register-para">
-
-        </div>
-        <button class="register">Register Now</button>
+        <button class="register-btn">Register Now</button>
     </div>
     <footer>
-        
+        <div class="logo-portion">
+            <img src="./images/Logo.png" alt="Footer Logo" class="foot-logo">
+            <p class="footlogo-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptas minima, debitis mollitia maxime voluptates.</p>
+        </div>
+        <div class="menu-portion">
+            <h1 class="menu-head foothead">Menu</h1>
+            <li class="menu footitems">Home</li>
+            <li class="menu footitems">Covid19</li>
+            <li class="menu footitems">VAccine Info</li>
+            <li class="menu footitems">Contact Us</li>
+        </div>
+        <div class="link-portion ">
+            <h1 class="link-head foothead">Links</h1>
+            <li class="links footitems">Partners</li>
+            <li class="links footitems">Careers</li>
+            <li class="links footitems">Press</li>
+            <li class="links footitems">Community</li>
+        </div>
+        <div class="overview-portion">
+            <h1 class="overview-head foothead">Overview</h1>
+            <li class="overviews footitems">Terms & Conditions</li>
+            <li class="overviews footitems">Privacy Policy</li>
+            <li class="overviews footitems">FAQ</li>
+        </div>
+        <div class="social-media">
+            <h1 class="social-head foothead">Social Media</h1>
+            <div class="social-icons">
+                <div class="social">FB</div>
+                <div class="social">IG</div>
+                <div class="social">YT</div>
+                <div class="social">LI</div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
